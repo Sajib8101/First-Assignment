@@ -1,0 +1,110 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.banner {
+  display: flex;
+  gap: 3em;
+  background-color: grey;
+}
+.right-bg {
+  margin-top: 8em;
+  margin-right: 10em;
+}
+h2 {
+  font-size: 60px;
+}
+.right-bg p {
+  font-size: 25px;
+  margin-top: 1em;
+}
+.right-bg button {
+  margin-top: 3em;
+  background-color: orangered;
+  padding: 1.5em;
+  color: white;
+  font-style: large;
+  text-align: end;
+}
+
+.left-bg img {
+  margin-top: 7em;
+  margin-left: 3em;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.body-text p {
+  display: flex;
+  font-size: 25px;
+  margin-top: 1em;
+}
+.main {
+  display: flex;
+  margin-top: 100px;
+  gap: 3em;
+  text-align: justify;
+}
+.plans {
+  margin-top: 80px;
+}
+.skills-container {
+  display: flex;
+}
+.skill-title {
+  font-weight: 700;
+  font-size: 20px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+.skill-description {
+  color: #757575;
+}
+.skill {
+  background: white;
+  padding: 120px;
+}
+.section-title {
+  text-align:left;
+  margin-bottom: 10px;
+}
+.container {
+  background: url(/images/watch.png);
+  background-repeat: no-repeat;
+  padding: 120px;
+  color: white;
+}
+.container button {
+  background-color: white;
+  color: orangered;
+  margin-top: 1em;
+  font-size: large;
+}
+.contact {
+  display: flex;
+  gap: 100px;
+  background-color: black;
+  color: white;
+  padding: 130px;
+}
+.contact input,
+textarea {
+  margin-bottom: 10px;
+}
+.contact-link {
+  margin-top: 10px;
+}
+.subscribe-button {
+  color: orangered;
+}
+
+ul:last-child li:before {
+  content: "\2611\0020";
+}
+ul {
+  list-style-type: none;
+}
